@@ -1,0 +1,21 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "weather-cli project",
+  "license": "ISC",
+  "author": " Sarvarbek Qobilov",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "dedent": "^1.7.1"
+  }
+}
