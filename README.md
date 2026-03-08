@@ -39,6 +39,13 @@ npm install
 ```bash
 node weather
 ```
+### Save API token
+
+```bash
+node weather -t YOUR_API_TOKEN
+```
+link: https://openweathermap.org/api , you have to get your own api token from there 
+
 
 ### Set city
 
@@ -46,11 +53,7 @@ node weather
 node weather -s London
 ```
 
-### Save API token
 
-```bash
-node weather -t YOUR_API_TOKEN
-```
 
 ### Help
 
